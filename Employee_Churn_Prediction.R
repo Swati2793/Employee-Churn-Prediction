@@ -1,4 +1,4 @@
-install.packages("Amelia")
+install.packages("Amelia") 
 install.packages("corrplot")
 install.packages("splitstackshape")
 install.packages("rsample")
@@ -201,5 +201,4 @@ cm = table(test[,9], pred)
         
 #TN = 1225, TP = 44, FP = 8 , TP = 44
 
-     
-?boxplot()
+#We choose Random Forest as it performs best.       
